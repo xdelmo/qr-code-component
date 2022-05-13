@@ -1,0 +1,113 @@
+/* ---------------------- */
+/* Fonts                  */
+/* ---------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* ---------------------- */
+/* Custom properties      */
+/* ---------------------- */
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+
+  --ff-main: "Outfit", sans-serif;
+}
+
+/* ---------------------- */
+/* Reset                  */
+/* ---------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* ---------------------- */
+/* Typography             */
+/* ---------------------- */
+
+html {
+  font-family: var(--ff-main);
+}
+
+body {
+  background-color: var(--clr-light-gray);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr-dark-blue);
+  padding: 0 0.5em;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 2em;
+  color: var(--clr-grayish-blue);
+}
+
+footer {
+  padding: 2em;
+}
+
+/* ---------------------- */
+/* Utility classes        */
+/* ---------------------- */
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ---------------------- */
+/* Components             */
+/* ---------------------- */
+
+/* card components */
+.card {
+  margin: 2em auto;
+  max-width: 22rem;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: var(--clr-white);
+}
+
+.card__qr-code {
+  border-radius: 0.75em;
+}
+
+/* footer */
+
+.attribution {
+  color: var(--clr-white);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+/* ---------------------- */
+/* Media queries          */
+/* ---------------------- */
+
+/* @media (max-width: 375px) {
+
+} */
