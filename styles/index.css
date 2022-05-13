@@ -82,9 +82,14 @@ span {
 /* Components             */
 /* ---------------------- */
 
+.container {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 /* card components */
 .card {
-  margin: 2em auto;
   max-width: 22rem;
   padding: 1em;
   border-radius: 1em;
